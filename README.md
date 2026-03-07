@@ -188,17 +188,26 @@ This is expected due to the small resolution (32×32).
 
 # Results
 
-ResNet-18 significantly improves classification performance compared to the baseline CNN.
+## Model Comparison
 
-Reasons include:
+| Model | Test Accuracy | Notes |
+|------|---------------:|------|
+| Baseline CNN | 70.43% | 2-layer custom CNN baseline |
+| ResNet-18 | 87.50% | Deeper residual architecture with stronger feature extraction |
 
-• deeper feature extraction  
-• residual connections improving gradient flow  
-• stronger hierarchical representations  
+**Improvement from CNN to ResNet-18:** **+17.07 percentage points**
 
-ResNet is able to better capture complex spatial patterns in images.
+ResNet-18 significantly outperformed the baseline CNN due to:
 
----
+- deeper hierarchical feature learning
+- residual connections improving gradient flow
+- stronger representation capacity for complex visual patterns
+
+Typical remaining errors occurred between visually similar classes such as:
+
+- cat vs dog
+- deer vs horse
+- automobile vs truck
 
 # Repository Structure
 
@@ -218,6 +227,21 @@ cifar10-resnet18-image-classifier
 ├── resnet_training_losses.json
 ├── resnet_per_class_accuracy.json
 ```
+
+## ResNet-18 Per-Class Accuracy
+
+| Class | Accuracy |
+|------|---------:|
+| airplane | 89.00% |
+| automobile | 94.80% |
+| bird | 87.00% |
+| cat | 81.30% |
+| deer | 88.80% |
+| dog | 84.30% |
+| frog | 77.60% |
+| horse | 86.90% |
+| ship | 93.00% |
+| truck | 92.30% |
 
 ---
 
