@@ -181,6 +181,8 @@ These activations highlight low-level visual patterns such as:
 
 ![ResNet Feature Maps](resnet_feature_maps.png)
 
+---
+
 # Example Model Predictions
 
 ![ResNet Predictions](resnet_predictions.png)
