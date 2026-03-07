@@ -168,6 +168,19 @@ Dataset
 
 ---
 
+# Feature Map Visualization
+
+To better interpret what the network learned, I visualized first-layer feature maps from the trained ResNet-18 model.
+
+These activations highlight low-level visual patterns such as:
+
+- edges
+- contrast boundaries
+- texture-like structures
+- simple shape detectors
+
+![ResNet Feature Maps](resnet_feature_maps.png)
+
 # Example Model Predictions
 
 ![ResNet Predictions](resnet_predictions.png)
