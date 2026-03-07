@@ -112,6 +112,24 @@ Softmax
 ```
 
 ---
+# Code
+
+The full training and evaluation pipeline is provided in the notebook:
+
+`vision_cnn_classifier.ipynb`
+
+The notebook includes:
+
+• dataset loading  
+• CNN architecture  
+• ResNet-18 architecture  
+• training loops  
+• evaluation metrics  
+• confusion matrix generation  
+• prediction visualization  
+• feature map visualization
+
+---
 
 # Training Setup
 
