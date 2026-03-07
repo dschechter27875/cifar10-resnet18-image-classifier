@@ -277,6 +277,15 @@ cifar10-resnet18-image-classifier
 | truck | 92.30% |
 
 ---
+## Live Demo
+
+Try the model in your browser:
+
+https://huggingface.co/spaces/dschechter27/cifar10-resnet-demo
+
+Upload an image and the ResNet-18 classifier will predict the most likely CIFAR-10 class.
+
+---
 
 # Key Takeaways
 
