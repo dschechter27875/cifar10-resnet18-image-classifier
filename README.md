@@ -223,8 +223,6 @@ cifar10-resnet18-image-classifier
 
 # Key Takeaways
 
-This project demonstrates:
-
 • building a full deep learning training pipeline  
 • training CNN and ResNet architectures  
 • evaluating models with confusion matrices  
@@ -233,9 +231,7 @@ This project demonstrates:
 
 ---
 
-# Future Improvements
-
-Possible extensions:
+# Future Improvements/Possible Extensions
 
 • data augmentation  
 • deeper ResNet variants  
