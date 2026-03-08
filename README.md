@@ -1,9 +1,5 @@
 # CIFAR-10 Image Classification with CNN and ResNet18
 
-**Author:** David Schechter  
-**Project Type:** Computer Vision / Deep Learning  
-**Dataset:** CIFAR-10  
-**Framework:** PyTorch  
 
 ---
 
